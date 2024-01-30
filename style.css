@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#input-div
+{
+    transition: background-color 0.3s ease;
+
+}
+#input-div:hover
+{
+    background-color: #2ed956;
+}
+
+.head{
+    color: #231942;
+}
+
+.task,.desc,.time{
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #DDDFDF;
+    border-color: #5E548E;
+}
+
+#startStop {
+    background-color: #4CAF50;
+    border: 2px solid rgb(188, 244, 170);
+    padding: 4px;
+    color: #231942;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+table{
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+table,td,th{
+    border-collapse:collapse;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+th{
+    background-color:#a4ffb8;
+    border-radius: 10px;
+    color: rgb(16, 4, 4);
+    width: 200px;
+    height: 30px;
+}
+
+tr:nth-child(even){
+    background-color:#2ed956;
+}
+
+.apply-style {
+    background-color: rgb(254, 211, 218);
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #77f139;
+
+  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input-div{
+    background-color: #b6f05e;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+    flex-direction: column;
+    display: inline;
+    text-align: center;
+}
+
+#num{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+
